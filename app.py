@@ -5,40 +5,41 @@ import pandas as pd
 # Data
 # -----------------------------
 data = [
-    ["Care Center of Honolulu (LTC)", "RN", 46.90],
-    ["East Hawaii State Veterans Home dba Yukio Okutsu State Veterans Home", "LPN", 33.88],
-    ["East Hawaii State Veterans Home dba Yukio Okutsu State Veterans Home", "RN", 44.60],
+    ["Care Center of Honolulu (LTC)", "RN", 48.31],
+    ["East Hawaii State Veterans Home dba Yukio Okutsu State Veterans Home", "LPN", 34.90],
+    ["East Hawaii State Veterans Home dba Yukio Okutsu State Veterans Home", "RN", 45.94],
     ["Hale Makua Health Services (LTC)", "RN", 46.89],
     ["Hale Nani Rehab & Nursing Center (LTC)", "LPN", 37.77],
     ["Hale Nani Rehab & Nursing Center (LTC)", "RN", 50.06],
-    ["Hawaii Care Choices (Hospice of Hilo)", "RN", 45.90],
+    ["Hawaii Care Choices (Hospice of Hilo)", "RN", 49.66],
     ["Kahuku Medical Center", "RN", 59.84],
     ["Kaiser Foundation Hospital - Patient Care & Clinical Coordinators", "PCC", 75.88],
     ["Kaiser Foundation Hospital - Patient Care & Clinical Coordinators", "CC", 79.64],
     ["Kapiolani Medical Center - Registered Nurses (HPH)", "RN", 70.89],
     ["Kapiolani Medical Center - Respiratory Therapists (HPH)", "RSP", 51.46],
     ["Kauai Medical Clinic (HPH)", "LPN", 32.90],
-    ["Kuakini Geriatric Care, Inc. (LTC)", "RN", 48.41],
+    ["Kuakini Geriatric Care, Inc. (LTC)", "RN", 49.86],
     ["Kuakini Medical Center (LTC)", "RN", 67.51],
     ["Kulana Malama (Pediahealth Corp)", "CNA", 19.24],
     ["Kulana Malama (Pediahealth Corp)", "LPN", 30.15],
     ["Kulana Malama (Pediahealth Corp)", "RN", 41.00],
-    ["Liberty Dialysis Hawaii, LLC; (Fresenius Kidney Care)", "RN", 57.51],
-    ["North Hawaii Community Hospital", "RN", 62.86],
+    ["Liberty Dialysis Hawaii, LLC; (Fresenius Kidney Care)", "RN", 58.80],
+    ["North Hawaii Community Hospital", "RN", 66.68],
     ["Oahu Care Facility - Certified Nurse Assistants (LTC)", "CNA", 19.24],
     ["Oahu Care Facility - Registered Nurses / Licensed Practical Nurses (LTC)", "LPN", 29.03],
     ["Oahu Care Facility - Registered Nurses / Licensed Practical Nurses (LTC)", "RN", 40.56],
     ["Pohai Nani Good Samaritan (LTC)", "RN", 45.66],
-    ["Rehabilitation Hospital of the Pacific - Licensed Practical Nurses", "LPN", 28.64],
-    ["Rehabilitation Hospital of the Pacific - Registered Nurses", "RN", 58.01],
+    ["Rehabilitation Hospital of the Pacific - Licensed Practical Nurses", "LPN", 29.79],
+    ["Rehabilitation Hospital of the Pacific - Registered Nurses", "RN", 60.33],
     ["St Francis Community Health Services (Hospice)", "RN", 54.59],
     ["Straub Clinic and Hospital (HPH)", "RN", 68.16],
-    ["The Queen's Medical Center - Case Managers", "CM", 67.06],
-    ["The Queen's Medical Center - Case Managers", "PTC", 71.61],
+    ["The Queen's Medical Center - Case Managers", "CM", 69.53],
+    ["The Queen's Medical Center - Case Managers", "CR", 69.53],
+    ["The Queen's Medical Center - Case Managers", "PTC", 69.53],
     ["The Queen's Medical Center - Central Transport Services (Punchbowl)", "CTS", 23.69],
     ["The Queen's Medical Center - Radiation Therapists", "RT", 54.37],
-    ["The Queen's Medical Center - Registered Nurses (Punchbowl & West)", "RN", 70.50],
-    ["The Queen's Medical Center - Wound Care RN", "WCCM", 65.77],
+    ["The Queen's Medical Center - Registered Nurses (Punchbowl & West)", "RN", 73.32],
+    ["The Queen's Medical Center - Wound Care RN", "WCCM", 69.77],
     ["US Renal Care", "RN", 59.78],
     ["Wilcox Memorial Hospital (HPH)", "RN", 68.16],
 ]
@@ -53,7 +54,7 @@ st.set_page_config(page_title="Calculate my dues")
 # Title & Blurb
 st.title("Calculate my dues")
 st.write("""
-The proposed dues structure determines your dues using the formula: Monthly Dues = Job Rate x Standard Hours of Work per Week x 1.333 x 0.008
+The proposed dues structure determines your dues using the formula: Monthly Dues = Job Rate x Standard Hours of Work per Week x 4.333 x 0.008
 
 Use this tool to calculate your **expected monthly dues**.
 Your job rate is determined by your **CBU** and **Job Classification**.
